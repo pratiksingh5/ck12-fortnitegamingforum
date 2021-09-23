@@ -1,5 +1,5 @@
 .bg{
-    background-image: url('../images/bg2.jpg');
+    background-image: url('../images/background.jpg');
 }
 #overlay{
     width: 100%;
@@ -61,7 +61,7 @@
     width: 100%;
     margin-top: 20px;
     padding: 13px 22px;
-    background-color: #bd7d1d;
+    background-color: #7b0fad;
     color: #fff;
     border: none;
     border-radius: 4px;

@@ -1,10 +1,11 @@
 let mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/GamingForum')
+let uri = 'mongodb+srv://pratiknew:pratik@pratik.7m6lk.mongodb.net/gamingforum9to12?retryWrites=true&w=majority'
+mongoose.connect(uri,{ useUnifiedTopology: true ,useNewUrlParser: true})
 .then(function(){
   console.log('Database Connected')
 })
-.catch(function(err){
+.catch(function(e){
   console.log(e)
 })
 
